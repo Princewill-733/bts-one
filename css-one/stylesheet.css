@@ -1,0 +1,154 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: gainsboro;
+
+}
+.full-page {
+  background-color: whitesmoke;
+  /* height:100vh; */
+  width:100vw;
+  padding: 20px;
+
+}
+.services {
+  font-size: 15px;
+  color: grey;
+  font-weight: bold;
+  margin:0px 0px 10px 0px;
+}
+.services-des {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(111, 111, 240);
+  margin:0px;
+}
+.div-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:2px 0px 25px 0px;
+}
+.div-p {
+  font-size: 25px;
+  font-weight: bold;
+  color: navy;
+  margin: 0px;
+}
+button {
+  background-color:blue;
+  padding:0px 10px;
+  height: 30px;
+  font-size: 10px;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  border:none;
+  border-radius: 40px;
+
+}
+.card-div {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 15px;
+  /* width: 1010px; */
+  /* background-color: lightpink; */
+}
+@media (max-width: 600px) {
+
+  .div-p {
+    font-size: 15px;
+  }
+  .card-div {
+    grid-template-columns: repeat(3,100px);
+  }
+  .card {
+    /* height: 200px; */
+  }
+  .card-img {
+    height:100px;
+  }
+  .card-content p{
+    font-size: 8px;
+  }
+  .card-content div {
+    font-size:8px;
+  }
+  .learn-more-hardcode {
+    font-size: 4px;
+  }
+}
+.card {
+  position:relative;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0.9);
+  backdrop-filter: blur(5px);
+
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  position: relative;
+
+}
+
+.card-img3{
+  object-position: 50% 30%;
+}
+.learn-more-hardcode {
+  cursor: pointer;
+}
+.card-content p {
+  font-weight: bold;
+  color: rgb(20, 20, 80);
+}
+.card-content {
+  padding: 10px 10px;
+}
+.card-content div {
+  font-size:12px;
+}
+.outer-circle-div {
+  width:49px;
+  height:49px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 176px;
+  left: 15px;
+
+}
+.inner-circle-div {
+  width: 43px;
+  height: 43px;
+  background-color: rgb(57, 57, 218);
+  border-radius: 50%;
+  position: absolute;
+  top: 179px;
+  left: 18.3px;  
+}
+.icons-sp img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  position: absolute;
+  top: 184px;
+  left: 25px;
+}
+.icons img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  filter: invert(1);
+  position: absolute;
+  top: 190px;
+  left: 30.2px;
+}
+.icon-2 {
+  width: 25px;
+  height: 25px;
+}
