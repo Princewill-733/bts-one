@@ -1,0 +1,64 @@
+body {
+  font-family:arial;
+}
+.btn {
+  border-radius:40px;
+}
+.c-serv {
+  font-size:20px;
+  font-weight:500px;
+  color: grey;
+}
+.c-range {
+  font-size:40px;
+  font-weight:bold;
+  color: rgb(111, 111, 240)
+}
+.bestsmile {
+  font-size: 30px;
+  font-weight: bold;
+  color: navy;
+}
+.learnmore{
+  cursor: pointer;
+  color:blue;
+}
+
+.outer-circle-div {
+  width:49px;
+  height:49px;
+  background-color: white;
+  border-radius: 50%;
+  top: 176px;
+  left: 15px;
+
+}
+.inner-circle-div {
+  width: 43px;
+  height: 43px;
+  background-color: rgb(57, 57, 218);
+  border-radius: 50%;
+  top: 179px;
+  left: 18.3px;  
+}
+.circleholder {
+  position: absolute;
+  background-color:red;
+}
+.icons-sp img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  position: absolute;
+  top: 184px;
+  left: 25px;
+}
+.icons img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  filter: invert(1);
+  position: absolute;
+  top: 190px;
+  left: 30.2px;
+}
